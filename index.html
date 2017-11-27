@@ -1,0 +1,96 @@
+<DOCTYPE html>
+<html>
+<header>
+	<meta charset="utf-8" />
+	<title>La mise en page avec flexbox</title>
+	
+	<link rel="stylesheet" href="stylesheet.css" />
+	
+	<style>
+		  /* ###################*/
+		 /* 4. quatrieme block */
+		/* ###################*/
+		
+		#conteneur:nth-child(4)
+		{
+			display: flex;
+		}
+		
+		.elmt
+		{
+			width: 150px;
+			height: 100px;
+		}
+
+		.elmt:nth-child(1)
+		{
+			background-color: orange;
+			flex: 2;
+		}
+
+		.elmt:nth-child(2)
+		{
+			background-color: blue;
+		}
+
+		.elmt:nth-child(3)
+		{
+			background-color: green;
+			flex: 3;
+		}
+	</style>
+</header>
+
+<body>
+
+<div>
+	<div id="conteneur">
+		<div id="conteneur_element">
+			<div class="element">&nbsp;</div>
+			<div class="element">&nbsp;</div>
+			<div class="element">&nbsp;</div>
+		</div>
+
+		<div id="conteneur_element">
+			<div class="element">&nbsp;</div>
+			<div class="element">&nbsp;</div>
+			<div class="element">&nbsp;</div>
+		</div>
+
+		<div id="conteneur_element">
+			<div class="element">&nbsp;</div>
+			<div class="element">&nbsp;</div>
+			<div class="element">&nbsp;</div>
+		</div>
+	</div>
+
+	<div id="conteneur">
+		<div class="element">&nbsp;</div>
+		<div class="element">&nbsp;</div>
+		<div class="element">&nbsp;</div>
+	</div>
+
+	<div id="conteneur">
+		<div class="element">&nbsp;</div>
+		<div class="element">&nbsp;</div>
+		<div class="element">&nbsp;</div>
+		<div class="element">&nbsp;</div>
+		<div class="element">&nbsp;</div>
+		<div class="element">&nbsp;</div>
+		<div class="element">&nbsp;</div>
+		<div class="element">&nbsp;</div>
+		<div class="element">&nbsp;</div>
+		<div class="element">&nbsp;</div>
+		<div class="element">&nbsp;</div>
+		<div class="element">&nbsp;</div>
+	</div>
+	
+	<div id="conteneur">
+		<div class="elmt">&nbsp;</div>
+		<div class="elmt">&nbsp;</div>
+		<div class="elmt">&nbsp;</div>
+	</div>
+</div>
+
+</body>
+</html>
