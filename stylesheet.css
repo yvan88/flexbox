@@ -5,19 +5,35 @@
 }
 
   /* ###################*/
- /* 2. deuxsieme block */
+ /* 4. quatrieme block */
 /* ###################*/
-#conteneur:nth-child(2)
+
+#conteneur:nth-child(4)
 {
 	display: flex;
-	
-	/* align horizontal */
-	justify-content: space-around;
-	/* align vertical */
-	align-items: center;
-	
-	height: 200px;
-	background-color: yellow;
+}
+
+.elmt
+{
+	width: 150px;
+	height: 100px;
+}
+
+.elmt:nth-child(1)
+{
+	background-color: orange;
+	flex: 2;
+}
+
+.elmt:nth-child(2)
+{
+	background-color: blue;
+}
+
+.elmt:nth-child(3)
+{
+	background-color: green;
+	flex: 3;
 }
 
   /* ###################*/
@@ -35,6 +51,22 @@
 	background-color: red;
 }
 
+
+  /* ###################*/
+ /* 2. deuxsieme block */
+/* ###################*/
+#conteneur:nth-child(2)
+{
+	display: flex;
+	
+	/* align horizontal */
+	justify-content: space-around;
+	/* align vertical */
+	align-items: center;
+	
+	height: 200px;
+	background-color: yellow;
+}
 
 
   /* #################*/
@@ -66,6 +98,7 @@
 	/* align horizontal */
 	justify-content: space-around;
 }
+
 
 
 .element
